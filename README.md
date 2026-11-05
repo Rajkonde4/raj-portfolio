@@ -1,4 +1,4 @@
-# Raj Konde — AI/ML Engineer Portfolio
+# Raj Konde — Full-Stack Developer & AI-Powered Applications Portfolio
 
 A dark, editorial, content-driven portfolio for final-year placements, built
 with Next.js (App Router), TypeScript and Tailwind CSS. All personal content

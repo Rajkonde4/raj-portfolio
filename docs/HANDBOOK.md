@@ -164,7 +164,7 @@ only if a blocker exists.
 
 | File              | Contains                                                                                                                                   |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `projects.ts`     | GeoVision AI, TrustChain AI, AquaMind, Regional Slang Recognition: summary, status, tags, pipeline stages, limitations, links, visibility. |
+| `projects.ts`     | GeoVision AI, TrustChain AI, EventSphere, AquaMind, Regional Slang Recognition: summary, status, tags, pipeline stages, limitations, links, visibility. |
 | `skills.ts`       | Skill groups by name (no percentages). "Exploring" group is separate on purpose.                                                           |
 | `experience.ts`   | Nine roles (internships, development, leadership) newest first.                                                                            |
 | `education.ts`    | B.Tech at Pimpri Chinchwad University, expected June 2027, CGPA 8.86.                                                                      |
@@ -317,7 +317,7 @@ Run `npm run readiness` for a live version of this list.
 
 Content you must supply or confirm:
 
-- [ ] `contribution` for GeoVision AI, TrustChain AI, AquaMind, Regional Slang (what _you_ built, after checking repos).
+- [ ] `contribution` for GeoVision AI, TrustChain AI, EventSphere, AquaMind, Regional Slang (what _you_ built, after checking repos).
 - [ ] `links.repository` (and `demo` if hosted) for each project.
 - [ ] AquaMind: the earlier "32% / 18%" figures were left out deliberately. Add them only with an explanation of how they were measured.
 - [ ] TEDxPCU mentoring: dates and what it involved.

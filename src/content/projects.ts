@@ -153,6 +153,52 @@ export const projects: Project[] = [
     links: {},
   },
   {
+    slug: "eventsphere",
+    title: "EventSphere",
+    tagline:
+      "A full-stack event management platform for streamlined registrations and event operations.",
+    summary:
+      "A web-based event platform developed for the International Mastermind Meet (IM#), bringing together participant workflows, event administration, authentication and QR-based attendance operations.",
+    category: "full-stack",
+    status: "in-progress",
+    visibility: "published",
+    featured: false,
+    tags: [
+      "Next.js",
+      "React",
+      "FastAPI",
+      "Supabase PostgreSQL",
+      "JWT Authentication",
+      "QR Workflows",
+      "Docker",
+    ],
+    problem:
+      "Event teams need a reliable way to coordinate participant registration, event information and on-ground operations. EventSphere brings these workflows into one web application.",
+    architecture: [
+      "Frontend: Next.js and React",
+      "Backend: FastAPI and REST APIs",
+      "Database: Supabase PostgreSQL",
+      "Authentication: JWT-based workflows",
+      "Event operations: QR-based attendance workflows",
+      "Deployment: Docker-based development and deployment setup",
+    ],
+    features: {
+      implemented: [
+        "Responsive event-facing web application",
+        "Backend services and REST API integration",
+        "Participant and administrative workflows",
+        "Database-backed application operations",
+        "Authentication workflows",
+        "QR-based event attendance functionality",
+      ],
+      inProgress: [
+        "Continued application integration and refinement",
+      ],
+      planned: [],
+    },
+    links: {},
+  },
+  {
     slug: "aqua-mind",
     title: "AquaMind",
     tagline: "AI-based sustainable cooling system for data centers.",

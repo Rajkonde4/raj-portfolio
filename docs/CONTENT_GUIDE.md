@@ -58,8 +58,8 @@ Save the PDF at `public/resume/Raj_Konde_Resume.pdf`.
 Filled in from Raj's project notes and `public/resume/Raj_Konde_Resume.pdf`
 (the Aug 2026 resume, which is the reference version). Still needed:
 
-- `contribution` for all four projects (after checking each repository)
-- Repository and demo links for all four projects
+- `contribution` for all five projects (after checking each repository)
+- Repository and demo links for all five projects
 - AquaMind: the resume's "estimated" efficiency figures are deliberately not
   published; add them only with an explanation of how they were measured
 - Regional Slang: supported languages and any evaluation results

@@ -119,13 +119,16 @@ test("role text rotates, and exposes every role to screen readers", async ({
   const eyebrow = page
     .locator("section[aria-labelledby=hero-heading] p")
     .first();
-  await expect(eyebrow.locator(".sr-only")).toContainText("AI/ML Engineer");
+  await expect(eyebrow.locator(".sr-only")).toContainText("Full-Stack Developer");
   await expect(eyebrow.locator(".sr-only")).toContainText(
-    "Aspiring Generative AI Engineer",
+    "AI Application Developer",
+  );
+  await expect(eyebrow.locator(".sr-only")).toContainText(
+    "Generative AI Enthusiast",
   );
   const rotating = eyebrow.locator('[aria-hidden="true"].role-swap');
-  await expect(rotating).toHaveText("AI/ML Engineer");
-  await expect(rotating).toHaveText("Aspiring Generative AI Engineer", {
+  await expect(rotating).toHaveText("Full-Stack Developer");
+  await expect(rotating).toHaveText("AI Application Developer", {
     timeout: 6000,
   });
 });
@@ -134,9 +137,9 @@ test("role text stays still with reduced motion", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/");
   const rotating = page.locator(".role-swap");
-  await expect(rotating).toHaveText("AI/ML Engineer");
+  await expect(rotating).toHaveText("Full-Stack Developer");
   await page.waitForTimeout(3500);
-  await expect(rotating).toHaveText("AI/ML Engineer");
+  await expect(rotating).toHaveText("Full-Stack Developer");
 });
 
 test("navigation adapts to the screen size", async ({ page, isMobile }) => {

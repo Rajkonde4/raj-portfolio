@@ -10,33 +10,37 @@ import type { SiteConfig } from "@/types/content";
  */
 export const siteConfig: SiteConfig = {
   name: "Raj Konde",
-  title: "Raj Konde | AI/ML Engineer",
+  title: "Raj Konde | Full-Stack Developer Building AI-Powered Web Applications",
   description:
-    "Portfolio of Raj Konde, a final-year B.Tech Computer Science and Engineering student focused on artificial intelligence and machine learning.",
+    "Portfolio of Raj Konde, a full-stack developer building AI-powered web applications with modern frontend, backend and machine learning technologies.",
   url: resolveSiteUrl(),
   locale: "en_IN",
   location: "Pune, India",
-  roles: ["AI/ML Engineer", "Aspiring Generative AI Engineer"],
+  roles: [
+    "Full-Stack Developer",
+    "AI Application Developer",
+    "Generative AI Enthusiast",
+  ],
   headline:
-    "I build AI systems that ground their answers in evidence, starting with satellite imagery.",
+    "I build AI-powered web applications, combining full-stack engineering with practical artificial intelligence.",
   summary:
-    "Final-year B.Tech Computer Science and Engineering student at Pimpri Chinchwad University, Pune. I focus on artificial intelligence and machine learning, backed by software engineering fundamentals across Python, web development and cloud.",
+    "Final-year B.Tech Computer Science and Engineering student at Pimpri Chinchwad University, Pune, graduating in June 2027. I build end-to-end web applications using modern frontend, backend, database and cloud technologies, and integrate AI/ML capabilities to solve practical problems.",
   focusAreas: [
+    "Full-Stack Development",
+    "AI-Powered Applications",
     "Generative AI",
     "Computer Vision",
-    "NLP",
-    "Vision-Language Models",
-    "AI Agents",
+    "Backend Engineering",
     "Intelligent Automation",
   ],
   about: {
     paragraphs: [
-      "I am a final-year B.Tech Computer Science and Engineering student at Pimpri Chinchwad University, Pune, graduating in June 2027. My focus is artificial intelligence and machine learning, supported by software engineering across Python, web development and cloud.",
-      "My main project is GeoVision AI, a multimodal system that answers questions about satellite imagery and ties each answer to evidence in the image. I have also built TrustChain AI, an OCR-based document verification platform, and AquaMind, an AI system for sustainable data-center cooling.",
-      "Alongside the AI work I ship web software: a web development internship at Shizen Wrap, and EventSphere, the event platform for the International Mastermind Meet. I also lead documentation and technical teams for university events.",
+      "I am a final-year B.Tech Computer Science and Engineering student at Pimpri Chinchwad University, Pune, graduating in June 2027. I focus on full-stack development and building AI-powered web applications, combining frontend engineering, backend systems, databases and applied machine learning.",
+      "I enjoy taking ideas from interface to implementation: building responsive applications, designing APIs, integrating databases and connecting intelligent capabilities to useful workflows. My primary project, GeoVision AI, is a multimodal satellite-image analysis system that brings together a web application, computer vision and vision-language reasoning. I have also worked on TrustChain AI, an OCR-based document verification platform, and AquaMind, an AI-driven approach to sustainable data-center cooling.",
+      "My software engineering experience includes EventSphere, an event management platform, and a Web Development Internship at Shizen Wrap Pvt. Ltd. Across these projects, I have worked with technologies including React, Next.js, Python, FastAPI, Flask, Node.js and databases. I have also taken documentation, technical and organizing leadership responsibilities across university initiatives.",
     ],
     direction:
-      "I am looking for AI/ML engineering roles, with a growing interest in Generative AI.",
+      "I am interested in full-stack development roles focused on building AI-powered products, as well as opportunities to work on practical Generative AI and intelligent application systems.",
   },
   // Set NEXT_PUBLIC_CONTACT_EMAIL in .env.local to show an email address.
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || undefined,

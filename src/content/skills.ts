@@ -2,11 +2,7 @@ import type { SkillGroup } from "@/types/content";
 
 /**
  * Skills are grouped by area and listed by name only. Do not add proficiency
- * percentages. Groups with no items are hidden.
- *
- * Source: Raj's skills notes and resume. The "exploring" group is kept apart
- * on purpose: those tools are being learned for GeoVision AI and are not
- * presented as confident skills.
+ * percentages. Tools still being explored for GeoVision AI remain separate.
  */
 export const skillGroups: SkillGroup[] = [
   {
@@ -15,8 +11,23 @@ export const skillGroups: SkillGroup[] = [
     items: ["Python", "C", "C++", "JavaScript", "TypeScript"],
   },
   {
+    id: "frontend",
+    label: "Frontend Engineering",
+    items: ["React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+  },
+  {
+    id: "backend",
+    label: "Backend Engineering",
+    items: ["FastAPI", "Flask", "Node.js", "Express.js", "REST APIs"],
+  },
+  {
+    id: "databases",
+    label: "Databases",
+    items: ["MongoDB", "PostgreSQL", "Supabase"],
+  },
+  {
     id: "ai-ml",
-    label: "AI / ML",
+    label: "AI / Machine Learning",
     items: ["Scikit-learn", "XGBoost", "NLP", "Text preprocessing"],
   },
   {
@@ -30,29 +41,14 @@ export const skillGroups: SkillGroup[] = [
     items: ["Pandas", "Matplotlib", "Data cleaning", "Data visualization"],
   },
   {
-    id: "frontend",
-    label: "Frontend",
-    items: ["React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
-  },
-  {
-    id: "backend",
-    label: "Backend",
-    items: ["FastAPI", "Flask", "Node.js", "Express.js", "REST APIs"],
-  },
-  {
-    id: "databases",
-    label: "Databases",
-    items: ["MongoDB", "PostgreSQL", "Supabase"],
-  },
-  {
     id: "cloud",
     label: "Cloud and DevOps",
     items: ["AWS", "Docker", "Git", "GitHub"],
   },
   {
     id: "exploring",
-    label: "Exploring",
-    note: "Being learned and integrated for GeoVision AI. Not listed as confident skills yet.",
+    label: "Exploring in AI Projects",
+    note: "Currently being learned and integrated for GeoVision AI; not presented as established expertise.",
     items: ["YOLO", "Segment Anything Model (SAM)", "Qwen-VL"],
   },
 ];
